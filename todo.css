@@ -7,16 +7,26 @@ div.sidebar {
     width : 280px;
   
 }
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
 ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    padding-top: 20px;
     width: 20%;
-    position: -webkit-sticky;
     background-color: #f1f1f1;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; 
+}
+
+ul li:hover {
+  background: #ddd;
 }
 h1 {
     background-color:  lightgreen;
@@ -45,26 +55,27 @@ h1 {
     background-color: #4CAF50;
   }
   div.todo-search-bar{
-    position: relative;
+    margin-top: 50px;
+    position:inherit;
     margin-left: 400px;
 	font-size: 1.5em;
-	background: linear-gradient(21deg, #10abff, #1beabd);
+	
     padding: 3px;
-	display: inline-block;
+	display: inline-flex;
 	border-radius: 9999em;
   }
   div.todo-search-bar input{
-    background: linear-gradient(21deg, #172e30, #1beabd);
+   
     font-size: 1.5em;
-	background: linear-gradient(21deg, #10abff, #1beabd);
+	
     padding: 3px;
-	display: inline-block;
+	  display: inline-block;
     border-radius: 9999em;
     outline: none;
   }
   div.todo-search-bar button{
       all: unset;
-    background: linear-gradient(21deg, #10abff, #1beabd);
+ 
     font-size: 1.5em;
 	
     padding: 0px;
@@ -73,25 +84,49 @@ h1 {
     outline: none;
   }
   div.todo-list {
-    position: relative;
-    font-size: 1.5em;
-    margin-left: 400px;
-    padding: 2px;
-    text-decoration: lightgreen;
+    position:inherit;
     display: inline-block;
     
   }
-  div.todo-list li a {
+  div.todo-list ul{
     
-    all: unset;
+    background:white;
+    list-style-type: none;
+    margin-left: 400px;
+    padding: 20px;
+    padding-top: 20px;
+    font-size: 1.5em;
+    width: 60%;
+    display: block;
+    height: 100%; /* Full height */
+    position: relative; /* Make it stick, even on scroll */
+    overflow: auto; 
+
+  }
+ 
+
+  div.todo-list li a{
+    
+   background: #ddd;
     padding: 3px;
+    width: 60%;
 	display: inline-block;
-    border-radius: 9999em;
+  border-radius: 9999em;
     outline: none;
     
   }
-  
+  .main{
+    position: relative;
+    }  
 
+
+    div.todo-autosearch{
+    
+     
+      display: none;
+      
+  
+    }
 
 
    
