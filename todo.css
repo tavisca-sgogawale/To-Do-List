@@ -1,0 +1,99 @@
+div.sidebar {
+   
+    
+    margin: 0px; 
+    font-size: 25px; 
+   list-style: none;
+    width : 280px;
+  
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    position: -webkit-sticky;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; 
+}
+h1 {
+    background-color:  lightgreen;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+   }
+   li a {
+    list-style: none;
+    color:black;
+  
+    padding: 2px;
+    text-decoration: lightgreen;
+    display: block;
+    font-size: 25px;   
+  }
+  li a:hover {
+    background-color: rgb(158, 199, 131);
+    color: white;
+    padding-right: 25px;
+    transition: 0.2s;
+    font-size: 28px;
+  }
+  li a:active {
+    background-color: #4CAF50;
+  }
+  div.todo-search-bar{
+    position: relative;
+    margin-left: 400px;
+	font-size: 1.5em;
+	background: linear-gradient(21deg, #10abff, #1beabd);
+    padding: 3px;
+	display: inline-block;
+	border-radius: 9999em;
+  }
+  div.todo-search-bar input{
+    background: linear-gradient(21deg, #172e30, #1beabd);
+    font-size: 1.5em;
+	background: linear-gradient(21deg, #10abff, #1beabd);
+    padding: 3px;
+	display: inline-block;
+    border-radius: 9999em;
+    outline: none;
+  }
+  div.todo-search-bar button{
+      all: unset;
+    background: linear-gradient(21deg, #10abff, #1beabd);
+    font-size: 1.5em;
+	
+    padding: 0px;
+	/* display: */
+    border-radius: 999em;
+    outline: none;
+  }
+  div.todo-list {
+    position: relative;
+    font-size: 1.5em;
+    margin-left: 400px;
+    padding: 2px;
+    text-decoration: lightgreen;
+    display: inline-block;
+    
+  }
+  div.todo-list li a {
+    
+    all: unset;
+    padding: 3px;
+	display: inline-block;
+    border-radius: 9999em;
+    outline: none;
+    
+  }
+  
+
+
+
+   
+   
+  

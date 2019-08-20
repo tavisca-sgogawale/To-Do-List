@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "todo.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <body>
+        <h1> 
+            <a id="logo">To-Do List</a>  
+    </h1> 
+    <main>
+        <nav  class="sidebar" style="z-index:3;width:250px" id="mySidebar"></nav>
+            <div class = "todo-sidebar" >   
+                <ul> 
+                    <li><a href="file:///C:/Users/sgogawale/Desktop/assignment.html">To-Do List</a></li> 
+                    <li><a href="/User">User</a></li> 
+                    <li><a href="/Department">Department</a></li> 
+                    <li><a href="/Logout">Logout</a></li> 
+                </ul> 
+            </div>
+        </nav> 
+            <div class = "todo-search-bar">
+                <input   type="text" placeholder="Search To-Do for today.." id="todo-item">
+                <button type="search"><i id="search" class="fa fa-search"></i></button>
+            </div>
+            <div class = "todo-list" > 
+                    
+                    <li><a href="file:///C:/Users/sgogawale/Desktop/assignment.html">To-Do List</a></li> 
+                    <li><a href="/User">User</a></li> 
+                    <li><a href="/Department">Department</a></li> 
+                    <li><a href="/Logout">Logout</a></li> 
+                    
+                </div>       
+        
+
+    </main>
+
+    <footer> . . .
+        
+    </footer> 
+    
+</body>
+
+<script>
+    document.getElementById('search').addEventListener("click", function(){
+        window.alert("hello");
+    });
+
+</script>
+</html>
